@@ -1,2 +1,1 @@
-to restore brew
-brew bundle --file=Brewfile
+Checkout restore_config.sh
