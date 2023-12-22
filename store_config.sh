@@ -4,6 +4,7 @@
 
 # 🍺 Backup Homebrew installations
 echo "Backing up Homebrew packages..."
+rm Brewfile
 brew bundle dump --file=Brewfile
 echo "Homebrew packages backed up!\n"
 
