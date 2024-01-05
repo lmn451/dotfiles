@@ -77,7 +77,7 @@ plugins=(
     gatsby
     yarn
     node
-    nvm
+    fnm
     npm
     safe-paste
     macos
@@ -134,3 +134,5 @@ source $HOMEBREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 
 
  [ -f $HOMEBREW_PREFIX/etc/profile.d/autojump.sh ] && . $HOMEBREW_PREFIX/etc/profile.d/autojump.sh
+
+ eval "$(fnm env --use-on-cd)"

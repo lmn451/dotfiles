@@ -9,9 +9,7 @@ echo "Homebrew packages restored!\n"
 
 # 🐟 Restore Fish shell configurations
 echo "Restoring Fish configurations..."
-cp fish_config.fish ~/.config/fish/config.fish
-cp -r fish_functions/* ~/.config/fish/functions/
-cp -r fish_completions/* ~/.config/fish/completions/
+cp -r fish/* ~/.config/fish
 source ~/.config/fish/config.fish
 echo "Fish configurations restored!\n"
 

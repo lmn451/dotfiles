@@ -10,9 +10,7 @@ echo "Homebrew packages backed up!\n"
 
 # 🐟 Backup Fish shell configurations
 echo "Backing up Fish configurations..."
-cp ~/.config/fish/config.fish fish_config.fish
-cp -r ~/.config/fish/functions/ fish_functions/
-cp -r ~/.config/fish/completions/ fish_completions/
+cp -r ~/.config/fish/* fish
 echo "Fish configurations backed up!\n"
 
 # 🖥️ Backup iTerm2 preferences
