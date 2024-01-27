@@ -1,0 +1,34 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+  "base_keymap": "VSCode",
+  "features": {
+    "copilot": false
+  },
+  "theme": "Rosé Pine Moon",
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "cursor_blink": true,
+  "buffer_font_size": 15,
+  "buffer_font_family": "PragmataPro Mono Liga",
+  // "buffer_font_family": "Input",
+  "terminal": {
+    // "shell": "zsh",
+    "font_family": "FiraCode Nerd Font"
+  },
+  "format_on_save": "on",
+  "formatter": {
+    "external": {
+      "command": "/Users/applesucks/Library/pnpm/prettier",
+      "arguments": ["--stdin-filepath", "{buffer_path}"]
+    }
+  }
+}
