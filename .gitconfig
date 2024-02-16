@@ -1,0 +1,8 @@
+[rerere]
+	enabled = true
+	autoUpdate = true
+[branch]
+	sort = -committerdate
+[alias]
+    pushf = push --force-with-lease
+
