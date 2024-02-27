@@ -5,4 +5,9 @@
 	sort = -committerdate
 [alias]
     pushf = push --force-with-lease
-
+[diff]
+	algorithm = histogram
+[push]
+	autoSetupRemote = true
+[help]
+	autocorrect = prompt
