@@ -1,0 +1,112 @@
+{
+  "workbench.startupEditor": "none",
+  "editor.fontFamily": "PragmataPro Mono Liga",
+  // "fonted.font": "Input",
+  // "editor.fontFamily": "IBM Plex Mono",
+  // "editor.fontFamily": "Input",
+  "editor.fontLigatures": true,
+  "emmet.showExpandedAbbreviation": "inMarkupAndStylesheetFilesOnly",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "problems.showCurrentInStatus": true,
+  "window.commandCenter": false,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "files.eol": "\r\n",
+  "[shellscript]": {
+    "files.eol": "\r\n"
+  },
+  "sonarlint.rules": {
+    "javascript:S6480": {
+      "level": "off"
+    },
+    "javascript:S6774": {
+      "level": "off"
+    },
+    "javascript:S6440": {
+      "level": "off"
+    },
+    "javascript:S3358": {
+      "level": "off"
+    },
+    "javascript:S6775": {
+      "level": "off"
+    }
+  },
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.advanced.messages": {
+    "suppressFileNotUnderSourceControlWarning": true
+  },
+  "gitlens.codeLens.includeSingleLineSymbols": true,
+  "gitlens.mode.active": "review",
+  "gitlens.outputLevel": "error",
+  "editor.fontWeight": "400",
+  // "editor.letterSpacing": 0,
+  "files.trimTrailingWhitespace": true,
+  "turboConsoleLog.quote": "'",
+  "turboConsoleLog.addSemicolonInTheEnd": true,
+  "workbench.editor.enablePreview": false,
+  "editor.stickyScroll.enabled": true,
+  "errorLens.delay": 0,
+  "editor.autoClosingBrackets": "never",
+  "editor.autoClosingQuotes": "beforeWhitespace",
+  "typescript.tsserver.log": "off",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "Cobalt2",
+  "editor.linkedEditing": true,
+  "editor.mouseWheelZoom": true,
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "redhat.telemetry.enabled": false,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.minimumContrastRatio": 7,
+  "diffEditor.experimental.showMoves": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "workbench.editor.pinnedTabSizing": "shrink",
+  "window.density.editorTabHeight": "compact",
+  "sonarlint.focusOnNewCode": true,
+  "sonarlint.disableTelemetry": true,
+  "workbench.activityBar.location": "top",
+  "editor.minimap.size": "fit",
+  "editor.minimap.showSlider": "always",
+  "editor.guides.indentation": false,
+  "editor.minimap.enabled": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "git.suggestSmartCommit": false,
+  "editor.formatOnSave": true,
+  "editor.wordWrap": "on",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.stickyScroll.enabled": true,
+  // "workbench.sideBar.location": "right",
+  "editor.cursorStyle": "block",
+  "editor.cursorBlinking": "solid",
+  "window.menuBarVisibility": "toggle",
+  "editor.accessibilitySupport": "off",
+  "editor.cursorSurroundingLines": 20,
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "accessibility.signals.terminalQuickFix": {
+    "sound": "on"
+  },
+  "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${profileName}${separator}${activeRepositoryBranchName}",
+  "apc.font.family": "Input",
+  "apc.monospace.font.family": "Input",
+  "editor.lineHeight": 0,
+  "editor.fontSize": 17,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
