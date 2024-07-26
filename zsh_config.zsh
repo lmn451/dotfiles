@@ -132,7 +132,19 @@ source $HOMEBREW_PREFIX/share/zsh-history-substring-search/zsh-history-substring
 source $HOMEBREW_PREFIX/share/zsh-you-should-use/you-should-use.plugin.zsh
 source $HOMEBREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+export PATH="$HOMEBREW_PREFIX/lib/ruby/gems/3.3.0/bin:$PATH"
 
  [ -f $HOMEBREW_PREFIX/etc/profile.d/autojump.sh ] && . $HOMEBREW_PREFIX/etc/profile.d/autojump.sh
 
  eval "$(fnm env --use-on-cd)"
+
+
+# pnpm
+export PNPM_HOME="/Users/applesucks/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+
+alias c='code -n'

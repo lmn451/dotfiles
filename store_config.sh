@@ -23,4 +23,8 @@ echo "Backing up ZSH configuration..."
 cp ~/.zshrc zsh_config.zsh
 echo "ZSH configuration backed up!\n"
 
+echo "Backing up whole ~/.config folder..."
+cp -r ~/.config/* config
+echo "Config folder was backed up succesfully\n"
+ 
 echo "All configurations have been backed up!"
