@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "expo": "^48.0.6",
+    "react-devtools": "^4.27.2"
+  }
+}
