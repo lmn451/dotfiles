@@ -1,3 +1,20 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = lmn451
+	email = putaluta@tuta.io
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[maintenance]
+	repo = /Users/applesucks/Repos/znap
+[core]
+	excludesfile = /Users/applesucks/.gitignore_global
+[commit]
+	template = /Users/applesucks/.stCommitMsg
 [rerere]
 	enabled = true
 	autoUpdate = true
@@ -5,9 +22,11 @@
 	sort = -committerdate
 [alias]
     pushf = push --force-with-lease
+	gs = !git switch $(git branch | fzf | sed \"s/^[* ] //\")
 [diff]
 	algorithm = histogram
 [push]
 	autoSetupRemote = true
 [help]
 	autocorrect = prompt
+
