@@ -10,7 +10,7 @@
   "assistant": {
     "default_model": {
       "provider": "zed.dev",
-      "model": "claude-3-5-sonnet-20240620"
+      "model": "claude-3-5-sonnet-latest"
     },
     "version": "2",
     "provider": {
@@ -19,25 +19,26 @@
       "available_models": []
     }
   },
+  "file_finder": {
+    "modal_max_width": "large"
+  },
   "vim_mode": false,
   "base_keymap": "VSCode",
-  "theme": "Andromeda",
+  "theme": "Gruvbox Light Hard",
   "telemetry": {
     "diagnostics": false,
     "metrics": false
   },
   "cursor_blink": false,
+  "cursor_shape": "block",
   "buffer_font_size": 15,
   "buffer_font_family": "PragmataPro Mono Liga",
+  "prettier": {
+    "allowed": true
+  },
   // "buffer_font_family": "ZedMono Nerd Font Mono",
   // "terminal": {
   //   "font_family": "FiraCode Nerd Font"
   // },
-  "format_on_save": "on",
-  "formatter": {
-    "external": {
-      "command": "/Users/applesucks/Library/pnpm/prettier",
-      "arguments": ["--stdin-filepath", "{buffer_path}"]
-    }
-  }
+  "format_on_save": "on"
 }

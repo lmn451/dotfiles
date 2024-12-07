@@ -5,11 +5,12 @@
 	email = putaluta@tuta.io
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-[mergetool "sourcetree"]
-	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
+	path =
+[merge "mergiraf"]
+    name = mergiraf
+    driver = mergiraf merge --git %O %A %B -s %S -x %X -y %Y -p %P
 [maintenance]
+    attributesfile = ~/.gitattributes
 	repo = /Users/applesucks/Repos/znap
 [core]
 	excludesfile = /Users/applesucks/.gitignore_global
@@ -29,4 +30,3 @@
 	autoSetupRemote = true
 [help]
 	autocorrect = prompt
-

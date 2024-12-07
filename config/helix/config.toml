@@ -3,5 +3,5 @@ theme = "flatwhite"
 line-number = "relative"
 cursorline = true
 [editor.lsp]
-display-messages = true
-display-inlay-hints = true
+# display-messages = true
+# display-inlay-hints = true

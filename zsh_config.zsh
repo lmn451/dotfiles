@@ -1,3 +1,5 @@
+# Add deno completions to search path
+if [[ ":$FPATH:" != *":/Users/applesucks/.zsh/completions:"* ]]; then export FPATH="/Users/applesucks/.zsh/completions:$FPATH"; fi
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -148,3 +150,6 @@ esac
 # pnpm end
 
 alias c='code -n'
+. "/Users/applesucks/.deno/env"
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/applesucks/.cache/lm-studio/bin"

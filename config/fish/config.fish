@@ -21,3 +21,6 @@ end
 # pnpm end
 
 alias c "code -n"
+
+# Added by LM Studio CLI (lms)
+set -gx PATH $PATH /Users/applesucks/.cache/lm-studio/bin

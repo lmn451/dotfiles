@@ -1,0 +1,1 @@
+source "/Users/applesucks/.deno/env.fish"
