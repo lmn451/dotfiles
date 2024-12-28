@@ -1,0 +1,9 @@
+[
+  {
+    "context": "Pane",
+    "bindings": {
+      "ctrl-left": "pane::GoBack",
+      "ctrl-right": "pane::GoForward"
+    }
+  }
+]

@@ -24,7 +24,7 @@
   },
   "vim_mode": false,
   "base_keymap": "VSCode",
-  "theme": "Gruvbox Light Hard",
+  "theme": "Ayu Light",
   "telemetry": {
     "diagnostics": false,
     "metrics": false
@@ -40,5 +40,6 @@
   // "terminal": {
   //   "font_family": "FiraCode Nerd Font"
   // },
-  "format_on_save": "on"
+  "format_on_save": "on",
+  "soft_wrap": "editor_width"
 }

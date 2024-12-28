@@ -153,3 +153,4 @@ alias c='code -n'
 . "/Users/applesucks/.deno/env"
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:/Users/applesucks/.cache/lm-studio/bin"
+export XDG_CONFIG_HOME="$HOME/.config"

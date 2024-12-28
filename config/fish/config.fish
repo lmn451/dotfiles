@@ -24,3 +24,4 @@ alias c "code -n"
 
 # Added by LM Studio CLI (lms)
 set -gx PATH $PATH /Users/applesucks/.cache/lm-studio/bin
+set -gx XDG_CONFIG_HOME "$HOME/.config"
